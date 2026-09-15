@@ -240,3 +240,26 @@
   snapshot `2026-09-12`, and `unmapped=[]`. Nine unittest cases, py_compile,
   `git diff --check`, and case-insensitive primary-key checks passed. The project
   `.workbuddy/automations/` directory was not read, staged, committed, or pushed.
+- **2026-09-16 (daily / Wednesday, Asia/Shanghai; run completed at 02:26 +0800):** Main
+  checkout preflight passed on `main`; `HEAD` and `origin/main` were synchronized before
+  and after the scan. The pre-existing `data/README.md` remained byte-for-byte unchanged
+  with SHA-256 `e32d1aae9ab46094030d4224175958671b81838caf790cb4b0fb19cbd9faac19`; existing
+  stashes were preserved, and `.workbuddy/automations/` was not read, staged, committed,
+  or pushed. Actionable scan coverage passed with `coverage_ok=true`, `planned/completed=6/6`,
+  `count_queries=6`, `fetch_queries=6`, `leaves=6`, `failures=[]`, `over_cap=[]`, and 1,067
+  unique repositories. Star floor was 10; `above_floor=8`, `skipped=0`:
+  `KaichenCurry/dsh-design-mode`, `wushi2333/dsh-computer-use_codex-style`,
+  `claudejaune/OmaSeek`, `yan-mc/dsh-normify`, `nullptr-DZF/dsh-academic-research-skills`,
+  `Clearailhc/clearai-dsh`, `KYinCode/dsh-hot-installer`, and
+  `fuzhengwei/walioffice-dsh-plugin`. Two exact four-repository review batches passed
+  schema and repository-set checks: 7 `verified_plugin`, 0 `verified_skill`, 0 `watchlist`,
+  0 `related`, and 1 `rejected` (`KaichenCurry/dsh-design-mode`, a derived full DSH runtime
+  rather than a standalone extension). Atomic merge added 7 rows to `repositories.csv`, 8
+  to `dsh-plugin-topic-candidates.csv`, 8 to `audit-results.csv`, and 7 to
+  `verified-plugins.csv`; backup `/tmp/dsh-curator-backup-vudf32vm`. Documentation checks
+  passed: `aggregate.py --render-only` reported 2,723 catalog rows and 1,591 CSV verified
+  flags; `generate_docs.py --strict` reported 1,929 deduplicated verified entries, 44
+  category pages, snapshot `2026-09-16`, and `unmapped=[]`. Nine unittest cases, py_compile,
+  `git diff --check`, and case-insensitive primary-key checks passed. Catalog commit
+  `c33ae1f587a182b8f1cd9ca7cb379734133b179f` was pushed to `origin/main`; a memory-only
+  follow-up commit is pending.
