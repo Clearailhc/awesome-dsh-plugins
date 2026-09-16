@@ -284,4 +284,6 @@
   flags; `generate_docs.py --strict` reported 1,939 deduplicated verified entries, 44
   category pages, snapshot `2026-09-17`, and `unmapped=[]`. Nine unittest cases,
   py_compile, `git diff --check`, and case-insensitive primary-key checks for all four
-  tables passed. Commit and push remained pending after this memory update.
+  tables passed. Catalog commit `a0700172e2c6db6e0f7bdf2a3b2dc6d07c824ea7` was pushed to
+  `origin/main`; this run's final publication state is included in the memory-only follow-up
+  commit.
