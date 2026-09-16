@@ -263,3 +263,25 @@
   `git diff --check`, and case-insensitive primary-key checks passed. Catalog commit
   `c33ae1f587a182b8f1cd9ca7cb379734133b179f` and memory-only follow-up commit
   `aee7878` were pushed to `origin/main`.
+
+- **2026-09-17 (daily / Thursday, Asia/Shanghai; run completed at 02:32 +0800):** Main
+  checkout preflight passed on `main`; `HEAD` and `origin/main` were synchronized. The
+  pre-existing `data/README.md` was stashed and restored byte-for-byte with SHA-256
+  `7ce1553dc72c8a03e2c284034b0a93f2c9388f12`; all six historical stashes were preserved.
+  The protected `.workbuddy/automations/` directory was excluded from stash, not read,
+  staged, committed, or pushed. Actionable scan coverage passed with `coverage_ok=true`,
+  `planned/completed=6/6`, `count_queries=6`, `fetch_queries=6`, `leaves=6`,
+  `failures=[]`, `over_cap=[]`, and 1,079 unique repositories. Star floor was 10;
+  `above_floor=12`, `skipped=0`. Two exact six-repository review batches passed the
+  repository-set/schema checks: 10 `verified_plugin`, 0 `verified_skill`, 0 `watchlist`,
+  2 `related`, and 0 `rejected`. GitHub REST metadata was rate-limited, so the agents
+  used GitHub HTML, raw files, codeload snapshots, and Atom feeds as primary evidence.
+  Atomic merge added 10 rows to `repositories.csv`, 12 to
+  `dsh-plugin-topic-candidates.csv`, 12 to `audit-results.csv`, and 10 to
+  `verified-plugins.csv`; backup `/tmp/dsh-curator-backup-cu93px02`. Stale review files
+  were preserved at `/tmp/dsh-topic-curator-stale.FgnaA4`. Documentation checks passed:
+  `aggregate.py --render-only` reported 2,733 catalog rows and 1,601 repository verified
+  flags; `generate_docs.py --strict` reported 1,939 deduplicated verified entries, 44
+  category pages, snapshot `2026-09-17`, and `unmapped=[]`. Nine unittest cases,
+  py_compile, `git diff --check`, and case-insensitive primary-key checks for all four
+  tables passed. Commit and push remained pending after this memory update.
