@@ -1,8 +1,8 @@
 # awesome-dsh-plugins
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-![Catalog](https://img.shields.io/badge/catalog-2747-2563eb)
-![Verified](https://img.shields.io/badge/verified-1953-16a34a)
+![Catalog](https://img.shields.io/badge/catalog-2749-2563eb)
+![Verified](https://img.shields.io/badge/verified-1955-16a34a)
 ![License](https://img.shields.io/badge/license-MIT-f59e0b)
 
 [English](README.en.md) | **简体中文** | [🌐 网站](https://deepseekharnessplugins.com)
@@ -11,11 +11,11 @@
 
 DeepSeek Harness 目前处于 **Developer Preview**。官方采用 Cordis 的“Everything is a plugin”架构：Profile 组合 Bundle，外部插件通常以 `package.json` 的 `dsh` 字段及 patch 文件声明挂载方式。[1] [2] 因此，本目录中的安装方法和兼容性应在你自己的 DSH 版本上先行验证。
 
-**快照日期：2026-09-18。** 本版主目录收录 **1953 个**经源码或安装清单核验的插件与 Skill，按 22 个能力分类组织（与配套网站 [deepseekharnessplugins.com](https://deepseekharnessplugins.com) 同构）；完整清单已拆分到 [`docs/categories/`](docs/categories/) 的 22 个分类页面。同时提供 **全量聚合目录 [`CATALOG.md`](CATALOG.md)（2747 个仓库）**，合并 GitHub 搜索与多个社区目录去重后得到。**聚合 ≠ 可装载、可兼容、可安全运行**；只有本目录核验子集进入主目录，证据见 [data/verified-plugins.csv](data/verified-plugins.csv) 与 [data/audit-results.csv](data/audit-results.csv)。[3]
+**快照日期：2026-09-19。** 本版主目录收录 **1955 个**经源码或安装清单核验的插件与 Skill，按 22 个能力分类组织（与配套网站 [deepseekharnessplugins.com](https://deepseekharnessplugins.com) 同构）；完整清单已拆分到 [`docs/categories/`](docs/categories/) 的 22 个分类页面。同时提供 **全量聚合目录 [`CATALOG.md`](CATALOG.md)（2749 个仓库）**，合并 GitHub 搜索与多个社区目录去重后得到。**聚合 ≠ 可装载、可兼容、可安全运行**；只有本目录核验子集进入主目录，证据见 [data/verified-plugins.csv](data/verified-plugins.csv) 与 [data/audit-results.csv](data/audit-results.csv)。[3]
 
 | 导航 | 内容 |
 | --- | --- |
-| [全量聚合目录](#全量聚合目录) | **2747 个** DSH 相关仓库的完整聚合（含未审核候选）；[审计日志](data/audit-results.csv) |
+| [全量聚合目录](#全量聚合目录) | **2749 个** DSH 相关仓库的完整聚合（含未审核候选）；[审计日志](data/audit-results.csv) |
 | [已核验插件目录](#已核验插件目录) | 按 22 个能力分类的已核验可装载扩展（与[网站](https://deepseekharnessplugins.com)同构） |
 | [界面与体验](#界面与体验) · [会话与消息](#会话与消息) · [其他](#其他) · [桌面与应用](#桌面与应用) · [MCP 与协议](#mcp-与协议) · [插件工具](#插件工具) · [Web 界面与前端](#web-界面与前端) · [主题与皮肤](#主题与皮肤) · [安全与鉴权](#安全与鉴权) · [聊天与 IM](#聊天与-im) · [命令行与终端](#命令行与终端) · [语音](#语音) · [清单与资源](#清单与资源) · [用量与计费](#用量与计费) · [Agent、自动化与工作流](#agent自动化与工作流) · [集成与分享](#集成与分享) · [开发者工具](#开发者工具) · [知识与研究](#知识与研究) · [设计、媒体与视觉](#设计媒体与视觉) · [网页与浏览器](#网页与浏览器) · [生态与资源](#生态与资源) · [纯属好玩](#纯属好玩) | 22 个分类锚点 |
 | [官方内置能力](#官方内置能力不是社区插件) | 随 DSH 源码发行的官方运行时构件 |
@@ -42,7 +42,7 @@ DeepSeek Harness 目前处于 **Developer Preview**。官方采用 Cordis 的“
 
 | 导航 | 内容 |
 | --- | --- |
-| [全量聚合目录](#全量聚合目录) | **2747 个** DSH 相关仓库的完整聚合（含未审核候选）；[审计日志](data/audit-results.csv) |
+| [全量聚合目录](#全量聚合目录) | **2749 个** DSH 相关仓库的完整聚合（含未审核候选）；[审计日志](data/audit-results.csv) |
 | 分类目录（完整清单） | [界面与体验](docs/categories/ui-experience.md) · [会话与消息](docs/categories/sessions-messages.md) · [其他](docs/categories/utilities.md) · [桌面与应用](docs/categories/desktop.md) · [MCP 与协议](docs/categories/mcp.md) · [插件工具](docs/categories/plugin-tools.md) · [Web 界面与前端](docs/categories/web-ui.md) · [主题与皮肤](docs/categories/theme.md) · [安全与鉴权](docs/categories/security.md) · [聊天与 IM](docs/categories/chat-im.md) · [命令行与终端](docs/categories/cli.md) · [语音](docs/categories/voice.md) · [清单与资源](docs/categories/lists.md) · [用量与计费](docs/categories/billing.md) · [Agent、自动化与工作流](docs/categories/agents-workflows.md) · [集成与分享](docs/categories/integrations-sharing.md) · [开发者工具](docs/categories/developer-tools.md) · [知识与研究](docs/categories/knowledge-research.md) · [设计、媒体与视觉](docs/categories/media-vision.md) · [网页与浏览器](docs/categories/web-browser.md) · [生态与资源](docs/categories/ecosystem-resources.md) · [纯属好玩](docs/categories/fun.md) |
 | [官方内置能力](#官方内置能力不是社区插件) | 随 DSH 源码发行的官方运行时构件 |
 | [相关项目与观察名单](#相关项目与观察名单不计入主目录) | 相关但并非已核验原生插件的项目 |
@@ -56,6 +56,7 @@ DeepSeek Harness 目前处于 **Developer Preview**。官方采用 Cordis 的“
 | 插件 | 能力 | 安装或挂载方式 | 许可 / 风险 |
 | --- | --- | --- | --- |
 | [hkkz9522/dsh-session-manager](https://github.com/hkkz9522/dsh-session-manager) | Adds archive, delete, move, preset migration, search, tags, notes, review flags, and priority controls to DSH Web sessions. | `dsh plugin --profile web add npm:dsh-session-manager; alternatively dsh plugin --profile web add github:hkkz9522/dsh-session-manager; restart DSH Web and force refresh with Ctrl+Shift+R if needed.` | MIT；Deletion is permanent; the README documents confirmation, path and artifact checks, symlink refusal, atomic annotation writes, and recovery behavior. |
+| [xohmai/dsh-session-delete](https://github.com/xohmai/dsh-session-delete) | Manages archived and all sessions from a DSH settings page, moving deletions to a restorable trash and supporting purge. | `dsh plugin --profile web add github:xohmai/dsh-session-delete; restart dsh web.` | Apache-2.0；Deletion and purge affect local session data; review the trash and purge behavior before enabling. |
 | [FeatherHunter/dsh-prompt](https://github.com/FeatherHunter/dsh-prompt) | Adds prompt templates, a /prompt input trigger, smart recommendations, and a settings panel to DSH. | `dsh plugin --profile web add dsh-prompt; # or: dsh plugin --profile desktop add dsh-prompt` | MIT；README verifies DSH CLI >=0.1.5-rc.1 and a DSH Desktop 2.0.9 baseline; install into the active profile and restart the corresponding DSH entry. |
 | [GooDAnDReaDY/dsh-russian-lang](https://github.com/GooDAnDReaDY/dsh-russian-lang) | Switch the DSH web UI to Russian with localization, typography, and keyboard-layout correction. | `dsh plugin --profile web add @goodandready/dsh-russian-lang` | MIT；README and package metadata report different translation coverage totals (6,808 versus 11,295 keys); treat the count as version or scope dependent. |
 | [claudejaune/OmaSeek](https://github.com/claudejaune/OmaSeek) | Adds 22 Omarchy-inspired themes, a pixel hero field, and an Omarchy Radio now-playing card to the DSH web profile. | `npx @deepseek-ai/dsh plugin --profile web add omaseek-themes omaseek-pixel omaseek-music; Or from a source checkout: cd /path/to/deepseek-harness && pnpm dsh plugin --profile web add omaseek-themes omaseek-pixel omaseek-music; Restart the harness; each package may also be installed separately.` | MIT；OmaMusic fetches the live playlist and tracks from radio.omarchy.org; the themes and pixel assets are ports of Omarchy, and the three packages are installed independently. |
@@ -64,9 +65,8 @@ DeepSeek Harness 目前处于 **Developer Preview**。官方采用 Cordis 的“
 | [startnewlabs/dsh-history](https://github.com/startnewlabs/dsh-history) | Lists, searches, copies, and jumps to the user's complete message history in DSH Web. | `dsh plugin --profile web add dsh-history@latest; bash ~/.dsh/profiles/web/node_modules/dsh-history/restart-dsh-web.sh` | MIT；The GitHub repository is startnewlabs/dsh-history, but package.repository and README source/GitHub URLs point to chenproton/dsh-history; verify mirror/provenance before treating it as the canonical listing. |
 | [sz1698/dsh-bg-new](https://github.com/sz1698/dsh-bg-new) | Adds a DSH web wallpaper/background drawer for preset, color, gradient, image, and video backgrounds, plus a bg_apply tool. | `dsh plugin --profile web add github:sz1698/dsh-bg-new` | MIT；Community plugin; README says local images/videos are persisted and served locally, and the video path has no size limit. |
 | [TOBYCAI/dsh-sessions-manager](https://github.com/TOBYCAI/dsh-sessions-manager) | Adds DSH settings and sidebar controls for session archive/restore, cross-workspace moves, trash, lineage, search, statistics, and export. | `dsh plugin --profile desktop add "github:TOBYCAI/dsh-sessions-manager"` | MIT；Permanent purge and cross-workspace moves are guarded filesystem operations; the README documents runtime-version and active-writer limitations. |
-| [Angel2518975237/deepseek-harness-hello-kitty-suite](https://github.com/Angel2518975237/deepseek-harness-hello-kitty-suite) | Themes the DSH Web interface and notifies the user with a toast, sound, or system notification when an agent turn ends. | `dsh plugin --profile web add https://github.com/Angel2518975237/deepseek-harness-hello-kitty-suite.git; dsh web` | MIT；The client polls every 700 ms and requests browser notification permission. Hello Kitty names and character assets may carry third-party trademark or distribution constraints beyond the repository's MIT code license. |
 
-> 该分类共 **268** 个已核验条目，[查看完整清单 →](docs/categories/ui-experience.md)
+> 该分类共 **269** 个已核验条目，[查看完整清单 →](docs/categories/ui-experience.md)
 
 ### 会话与消息
 
@@ -276,6 +276,7 @@ DeepSeek Harness 目前处于 **Developer Preview**。官方采用 Cordis 的“
 
 | 插件 | 能力 | 安装或挂载方式 | 许可 / 风险 |
 | --- | --- | --- | --- |
+| [Sivan757/dsh-agent-plugins-market](https://github.com/Sivan757/dsh-agent-plugins-market) | Discovers, previews, installs, enables, and mounts third-party agent suites across skills, commands, personas, MCP services, hooks, and LSP servers. | `dsh plugin --profile <name> add dsh-agent-plugins-market; restart DSH and open Settings -> Agent Plugins Market.` | MIT；Marketplace sources can contain executable hooks and MCP/LSP processes; installation is not a security audit or endorsement of every imported suite. |
 | [Duskriver/dsh-opencode-go](https://github.com/Duskriver/dsh-opencode-go) | Adds an opencode-go model route with live gateway model discovery, OpenCode Go API-key settings, subscription usage display, streaming/tool/image requests, and per-conversation routing headers. | `dsh plugin --profile web add dsh-opencode-go` | MIT；The install command is unpinned and the model catalog is refreshed from the external gateway; README requires an OpenCode Go API key and says the Web and Headless profiles are installed separately. |
 | [Noob-stupid/dsh-plugin-gating-hub](https://github.com/Noob-stupid/dsh-plugin-gating-hub) | Lists and toggles DSH plugin rows, searches GitHub/Gitee/custom sources, installs npm or Git repositories, manages skills, controls local server components, and runs framework upgrade/rollback flows. | `dsh plugin --profile web add @noob-stupid/dsh-plugin-console; # or: dsh plugin --profile web add github:Noob-stupid/dsh-plugin-hub` | MIT；The canonical repository is dsh-plugin-gating-hub, but README/package metadata still use the historical dsh-plugin-hub name and URL; the documented GitHub install string is preserved verbatim. The GitHub About URL redirects to the canonical repository, and exact language metadata was not available from the anonymous HTML panel. |
 | [Lenonss/DSH_VsCodeMode](https://github.com/Lenonss/DSH_VsCodeMode) | Edit workspace files in a Monaco-based DSH UI, review agent diffs, and use LSP navigation. | `dsh plugin --profile web add github:Lenonss/DSH_VsCodeMode#v0.1.23` | MIT；README installation examples pin v0.1.23, while package.json reports version 0.4.6; the documented pinned command is preserved here. |
@@ -285,9 +286,8 @@ DeepSeek Harness 目前处于 **Developer Preview**。官方采用 Cordis 的“
 | [yan-mc/dsh-normify](https://github.com/yan-mc/dsh-normify) | Lets agents map, validate, update, render, and track codebase architecture with 30+ normify_* tools and the normify-gen skill. | `dsh plugin --profile web-desktop add <absolute path to dsh-normify>; Or: dsh plugin --profile web-desktop add link:F:/dsh-normify; For link mode, run npm install in the repository first; then restart DSH.` | MIT；Targets DSH 0.1.5-rc.2 through below 0.2.0 and the web-desktop profile; link installs need local npm dependencies, and a DSHEAC upgrade can wipe the profile registration. |
 | [agentic-os-org/ANOLISA](https://github.com/agentic-os-org/ANOLISA) | Load the AgentSight DSH bundle to expose an agentsight_status tool for plugin status and version checks. | `cd src/agentsight/dsh-plugin && pnpm install && pnpm run build && dsh plugin --profile web add .` | Apache-2.0；Catalog only src/agentsight/dsh-plugin; do not imply that the ANOLISA CLI, eBPF AgentSight runtime, OS Skills, or other adapters are part of the DSH plugin entry. |
 | [dingminhua/dsh-connect-workbuddy](https://github.com/dingminhua/dsh-connect-workbuddy) | Connects locally signed-in WorkBuddy models to DSH as a workbuddy provider and exposes read-only credits and model management. | `dsh plugin --profile desktop add dsh-connect-workbuddy` | MIT；Requires a signed-in WorkBuddy desktop app, relies on non-official WorkBuddy endpoints, and account switching uses historical desktop auth backups; review credential handling before enabling. |
-| [Cerbur/clutch-dsh](https://github.com/Cerbur/clutch-dsh) | Provides installable DSH extensions for worktree-oriented sessions, deterministic or LLM-assisted titles, brainstorming commands/skills, and a fireworks tool. | `dsh plugin --profile web add @cerbur/clutch-dsh-worktree; dsh plugin --profile web add @cerbur/clutch-dsh-fireworks; dsh plugin --profile web add @cerbur/clutch-dsh-title; dsh web` | MIT；The repository root is not itself an installable plugin. @cerbur/clutch-dsh-discuss is listed in the README but was not present in the npm registry when checked, so use the confirmed package installs above or review its source-install procedure separately. |
 
-> 该分类共 **255** 个已核验条目，[查看完整清单 →](docs/categories/developer-tools.md)
+> 该分类共 **256** 个已核验条目，[查看完整清单 →](docs/categories/developer-tools.md)
 
 ### 知识与研究
 

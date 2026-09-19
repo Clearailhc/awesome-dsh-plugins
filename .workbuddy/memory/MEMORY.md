@@ -287,3 +287,30 @@
   tables passed. Catalog commit `a0700172e2c6db6e0f7bdf2a3b2dc6d07c824ea7` was pushed to
   `origin/main`; this run's final publication state is included in the memory-only follow-up
   commit.
+
+- **2026-09-19 (weekly / Saturday, Asia/Shanghai; run timestamp `2026-09-19T18:45:37Z`):**
+  Main checkout preflight passed on `main`; `HEAD` matched `origin/main`, the worktree was
+  clean, no new stash was needed, and historical stashes were preserved. The full scan was
+  date-pinned to the task date `2026-09-19` because the host clock was one day ahead. Full
+  coverage passed with `coverage_ok=true`, `planned/completed=44/44`,
+  `count_queries=192`, `fetch_queries=165`, `leaves=165`, `failures=[]`, `over_cap=[]`,
+  and 15,454 unique repositories. Star floor was 10; 11 new repositories were above the
+  floor, and 8 were deferred because their `pushed_at` converted to `2026-09-19`:
+  `dataelement/dsh-desktop`, `loopx-project/loopx`, `slow-stack/dsh-mneme`,
+  `myc0576/SmartMoney-Cub`, `qishuilalala/dsh-voice-mode`,
+  `PerryLink/dsh-session-sync`, `bainianling/dsh-jailbreak-mode`, and
+  `kendu76/dsh-music-player`. The remaining 3 were reviewed from GitHub metadata,
+  README, package manifests, patch files, and concrete entry points: 2 `verified_plugin`
+  (`xohmai/dsh-session-delete`, `Sivan757/dsh-agent-plugins-market`) and 1 `related`
+  (`SheltonLiu-N/nano-cordis`), with 0 `verified_skill`, `watchlist`, or `rejected`.
+  A read-only review agent was dispatched but produced no current artifact; stale review
+  files were not reused and the main agent completed the bounded review. Atomic merge added
+  2 rows to `repositories.csv`, 3 to `dsh-plugin-topic-candidates.csv`, 3 to
+  `audit-results.csv`, and 2 to `verified-plugins.csv`; backup
+  `/tmp/dsh-curator-backup-6plld4c_`. `aggregate.py --render-only` reported 2,749 catalog
+  rows and 1,617 repository verified flags; `generate_docs.py --strict` reported 1,955
+  deduplicated verified entries, 44 category pages, snapshot `2026-09-19`, and
+  `unmapped=[]`. The exact-set merge dry-run and real merge passed; 9 unittest cases,
+  py_compile, `git diff --check`, case-insensitive primary-key checks, and deferred-repo
+  absence checks passed. The `.workbuddy/automations/` directory was not read, staged,
+  committed, or pushed.
