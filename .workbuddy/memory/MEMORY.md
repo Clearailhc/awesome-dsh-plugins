@@ -314,3 +314,21 @@
   py_compile, `git diff --check`, case-insensitive primary-key checks, and deferred-repo
   absence checks passed. The `.workbuddy/automations/` directory was not read, staged,
   committed, or pushed.
+
+- **2026-09-21 (daily / Monday, Asia/Shanghai; host scan window `2026-09-22 02:04-02:05 +0800`):**
+  Main checkout preflight passed on `main`; `HEAD` matched `origin/main`, the worktree was
+  clean, no new stash was needed, and all seven historical stashes were preserved. The
+  actionable scan passed with `coverage_ok=true`, `planned/completed=6/6`, `count_queries=6`,
+  `fetch_queries=6`, `leaves=6`, `failures=[]`, `over_cap=[]`, and 1,118 unique repositories.
+  Star floor was 10; `above_floor=34`, `skipped=0`. Six exact review batches covered all 34
+  repositories and passed the 20-field/schema, enum, timestamp, and repository-set checks:
+  28 `verified_plugin`, 0 `verified_skill`, 1 `watchlist`, 4 `related`, and 1 `rejected`.
+  Atomic merge added 28 rows to `repositories.csv`, 34 to `dsh-plugin-topic-candidates.csv`,
+  34 to `audit-results.csv`, and 28 to `verified-plugins.csv`; backup
+  `/tmp/dsh-curator-backup-du3527v2`. Existing stale `/tmp/dsh_review_batch_*` artifacts
+  were not reused; only the six exact current batch paths were merged. Documentation checks
+  passed: `aggregate.py --render-only` reported 2,777 catalog rows and 1,645 repository
+  verified flags; `generate_docs.py --strict` reported 1,983 deduplicated verified entries,
+  44 category pages, snapshot `2026-09-21`, and `unmapped=[]`. Nine unittest cases,
+  py_compile, `git diff --check`, and case-insensitive primary-key checks for all four tables
+  passed. The `.workbuddy/automations/` directory was not read, staged, committed, or pushed.
