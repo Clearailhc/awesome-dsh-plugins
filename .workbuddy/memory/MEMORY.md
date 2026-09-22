@@ -332,3 +332,29 @@
   44 category pages, snapshot `2026-09-21`, and `unmapped=[]`. Nine unittest cases,
   py_compile, `git diff --check`, and case-insensitive primary-key checks for all four tables
   passed. The `.workbuddy/automations/` directory was not read, staged, committed, or pushed.
+
+- **2026-09-22 (weekly / Tuesday, Asia/Shanghai; host scan window `2026-09-23 02:04-02:33 +0800`):**
+  Main checkout preflight passed on `main`; `HEAD` matched `origin/main`, the worktree was
+  clean, no new stash was needed, and all seven historical stashes were preserved. The full
+  scan was date-pinned to task date `2026-09-22` because the host clock was one day ahead.
+  Coverage passed with `coverage_ok=true`, `planned/completed=44/44`, `count_queries=195`,
+  `fetch_queries=168`, `leaves=168`, `failures=[]`, `over_cap=[]`, and 15,837 unique
+  repositories. Star floor was 10; `above_floor=8`, `skipped=13,391`: `VDERR/dsh-echocat-skill-panel`,
+  `A8Chann/dsh-pet-live2d`, `buberlo/dsh-jev`, `yu-wenchao/dsh-free-models-hub`,
+  `better-er/dsh-pause`, `Coco-king/dsh-x-opencode-session`, `Innocent-children/dev-flow`,
+  and `tingfeng347/dsh-vscode-workbench`.
+  Two exact four-repository review artifacts passed the 20-field/schema, enum, timestamp,
+  and repository-set checks: 7 `verified_plugin`, 0 `verified_skill`, 0 `watchlist`, 0
+  `related`, and 1 `rejected` (`yu-wenchao/dsh-free-models-hub`). Stale six-item review
+  artifacts were not reused; the current files were `/tmp/dsh_review_20260922_batch_1.json`
+  and `/tmp/dsh_review_20260922_batch_2.json`. Atomic merge added 7 rows to
+  `repositories.csv`, 8 to `dsh-plugin-topic-candidates.csv`, 8 to `audit-results.csv`,
+  and 7 to `verified-plugins.csv`; backup `/tmp/dsh-curator-backup-lb1mlwk2`.
+  Documentation checks passed: `aggregate.py --render-only` reported 2,784 catalog rows
+  and 1,652 CSV verified flags; `generate_docs.py --strict` reported 1,990 deduplicated
+  verified entries, 44 category pages, snapshot `2026-09-22`, and `unmapped=[]`. Nine
+  unittest cases, py_compile, `git diff --check`, and case-insensitive primary-key checks
+  for all four tables passed. The catalog changes were recorded in the current local
+  commit (`chore: record dsh topic curator 2026-09-22`); push was pending at
+  memory-update time. The
+  `.workbuddy/automations/` directory was not read, staged, committed, or pushed.
